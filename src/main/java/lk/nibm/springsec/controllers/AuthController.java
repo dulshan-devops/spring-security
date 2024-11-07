@@ -12,6 +12,12 @@ public class AuthController {
     @Autowired
     private AuthService service;
 
+    @PostMapping("/login")
+    public String login(@RequestBody Users user) {
+
+        return service.verify(user);
+    }
+
     @PostMapping("/register")
     public Users register(@RequestBody Users user)
     {
