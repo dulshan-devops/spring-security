@@ -6,7 +6,6 @@ This project is a basic **Employee Management System** API built with **Spring B
 - **User Authentication** with JWT for secure, stateless sessions
 - **Role-Based Authorization** to manage user access levels
 - **Bcrypt Password Encoding** for encrypted password storage
-- **OAuth2 Login** using Google and GitHub
 - **Spring Security Configuration** for customizable security policies
 
 ## Tech Stack
